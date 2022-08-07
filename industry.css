@@ -36,11 +36,12 @@
 * {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+     box-sizing: border-box;
 }
 
 .header{
     display: flex;
+    justify-content: center;
 }
 
 .first-container{
@@ -85,26 +86,6 @@
     text-align: center;
 }
 
-.btn{
-    display: flex;
-    justify-content: center;
-}
-
-.my-btn{
-    color: white;
-    font-size: 18px;
-}
-
-.my-btn :hover{
-    background: var(--danger);
-    border: none;
-}
-
-.my-btn :hover a{
-    color: var(--light);
-    border: none;
-}
-
 .lady1{
     display: flex;
     margin: auto;
@@ -115,4 +96,11 @@
     display: flex;
     margin: auto;
     width: 76%;    
+}
+
+.flex-content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
 }
